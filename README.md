@@ -32,10 +32,10 @@ Ensure MongoDB is running and accessible. Update the connectionString and jwtKey
 
 Running the Application
 To start the server, run:
+1. Clone the repository:
+   ```bash
+   go run main.go
 
-bash
-Copy code
-go run main.go
 By default, the server will start on port 9020. You can access the application at http://localhost:9020.
 
 Endpoints
